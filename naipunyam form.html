@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html foms</title>
+    <style>
+      hr{
+        margin: auto;
+        margin-top: 3px;
+      }
+      button{
+        background-color: red;
+        color: white;
+      }
+      .mm{
+        border-style: solid;
+        border-width: 1px;
+        padding: 15px 2px 0px 20px;
+        width:120%;
+        margin-left: -20px;
+      }
+      input,select{
+        width:200px;
+        height: 30px;
+        padding: 5px;
+        font-size: 15px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 5px;
+      }
+      .kk{
+
+
+        background-color: blue;
+        color: white;
+      }
+      .mm{
+        background-color:rgba(255, 255, 0, 0.527);
+      }
+      lable{
+      color:indigo;
+      }
+    </style>
+</head>
+<body>
+  <div class="mm">
+  
+     <hr style="border-top: 4px double;margin-top:70px; width:100%;"> 
+     
+  <button >personal information</button>
+
+ <div style="display: flex; justify-content: space-evenly;">
+  
+<div>
+    <lable for="dob">date of birth</lable><br>
+    <input type="date"> 
+  </div>
+<div>
+    <lable for="aadhar number">aadhar number</lable><br>
+    <input type="text"> 
+  </div>
+  <div>
+    <lable for="full name">full name</lable><br>
+    <input type="text">
+  </div>
+ </div> 
+  <div style="display: flex; justify-content: space-evenly;">
+  <div>
+  <lable for="father name">father name</lable><br>
+  <input type="text">
+  </div> 
+
+  <div> <lable for="age"> age</lable><br>
+    <input type="text">
+</div>
+
+<div>
+    <lable for="gender">gender</lable><br>
+   
+    <select id="gender" name="Gender">
+      <option value=""> select gender</option>
+      <option value="male">male</option>
+      <option value="female">female</option>
+      <option value="others">others</option><br><br>
+    </select>
+   </div>
+</div> 
+<div style="display: flex; justify-content: space-evenly;">
+   
+   <div>
+    <lable for="marrital status">marital status</lable><br>
+    <select id="marital status" name="marital status">
+      <option value=""></option>
+      <option value="married">married</option>
+      <option value="un married">un married</option>
+    </select>
+     </div>
+      
+     <div>
+      <lable for="religion"> religion</lable><br>
+      <select id="religion`" name="religion">
+         <option value=""></option>
+        <option value="hindhu">hindhu</option>
+        <option value="christan">christan</option>
+        <option value="muslim">muslim</option>
+      </select>
+     </div>
+      
+     <div>
+      <lable for="category">category</lable><br>
+      <select id="category" name="category">
+         <option value=""></option>
+        <option value="oc">oc</option>
+        <option value="BC">BC</option>
+        <option value="SC & ST">SC & ST</option>
+      </select>
+     </div>
+ </div>
+<div style="display: flex; justify-content: space-evenly;">
+  <div>
+     <lable for="Are you a resident of AP state">Are you a resident of AP state</lable><br>
+      <select id="Are you a resident of AP state" name="Are you a resident of AP state">
+        
+  <option value=""></option>
+  <option value="yes">yes</option>
+  <option value="no">no</option>
+</select>
+  </div>
+ <div>
+ <lable for="disability">disability</lable><br>
+  <select id="disability" name="disability">
+    <option value=""></option>
+      <option value="yes">yes</option>
+        <option value="no">no</option>
+  </select>
+ </div> 
+</div>
+ <div style="display: flex; justify-content: space-evenly;">
+  <div>
+  <!-- <lable for="upload profile photo">upload profile photo</lable>
+  <input  type="button" value="choose file">
+  <input type="uplode profile photo" placeholder="no file choosen">
+ </div> <br><br> -->
+
+  <lable for="upload">upload profile photo</lable><br>
+ 
+  <input type="file">
+  </div>
+ </div>
+  <hr style="border-top: 4px double;margin-top:70px; width:100%;">
+<button> contact infprmation</button><br><br>
+<div style="display: flex; justify-content: space-evenly;">
+  <div >
+
+  <lable for="email address">email address</lable><br>
+  <input type="mail" placeholder="enter your email">
+  </div>
+  <div>
+    <lable for="mobile number">mobile number</lable><br>
+    <input type="text">
+  </div>
+  <div>
+    <lable for="number">alternative mobile number</lable><br>
+    <input type="text">
+  </div>
+  </div>
+  <hr style="border-top: 4px double;margin-top:70px; width:100%;">
+  <button>login credinals</button>
+  <div style="display: flex; justify-content: space-evenly;">
+    <div>
+<lable for="name">user name</lable><br>
+<input type="text">
+    </div>
+    <div>
+      <lable for="word">password</lable><br>
+      <input type="text">
+    </div>
+    <div>
+      <lable for="word">Re-Enter password</lable><br>
+      <input type="text">
+    </div>
+    </div>
+      <hr style="border-top: 4px double;margin-top:70px; width:100%;">
+  <button>communicatipon adderss</button>
+  <div style="display: flex;">
+    <div>
+      <input type="radio">
+      <lable for="">RURAL</lable>
+      <input type="radio">
+      <lable for="">URBAN</lable>
+        </div>
+  </div>
+  <div style="display: flex; justify-content: space-evenly;">
+    <div>
+      <lable for="state">state</lable><br>
+      
+       <select id="state" name="state">
+    <option value=""></option>
+      <option value="AP">andrapradhesh</option>
+        <option value="telangana">telangana</option>
+        <option value="thamilnadu">thamilnadu</option>
+        <option value="kerala">kerala</option>
+        <option value="karnataka">karnataka</option>
+        <option value="u.p">u.p</option>
+        <option value="madhyapradesh">madhyapradesh</option>
+        <option value="gujarath">gujarath</option>
+         <option value="rajesthan">rajesthan</option>
+  </select>
+    </div>
+    <div>
+      <lable for="distric">distric</lable><br>
+         <select id="distric" name="distric">
+    <option value=""></option>
+      <option value="krishna">krishna</option>
+        <option value="gunture">gunture</option>
+        <option value="ntr">ntr/option>
+        <option value="palnadu">palnadu</option>
+        <option value="west godhavari">west godhavari</option>
+        <option value="east godhavari">east godhavari</option>
+        <option value="kurnool">kurnool</option>
+        <option value="kadapa">kadapa</option>
+         
+  </select>
+    </div>
+    <div>
+      <lable for="mandal">mandal</lable><br>
+       <select id="mandal" name="mandal">
+        <option value=""></option>
+    <option value="amaravathi">amaravathi</option>
+      <option value="milavaram">,milavaram</option>
+        <option value="nandhyala">nandhyala</option>
+        <option value="thullur">thullur</option>
+        <option value="prathipadu">prathipadu</option>
+        <option value="ponnur">ponnur</option>
+        
+        </select>
+    </div>
+  </div>
+  <div style="display: flex; justify-content: space-evenly;">
+    <div>
+      <lable for="parlament">parliment constituency</lable><br>
+      <select id="parlament constituency" name="parlament constituency">
+    <option value=""></option>
+      <option value="yes">yes</option>
+        <option value="no">no</option>
+  </select>
+    </div>
+    <div>
+      <lable for="ass">assembly constituency</lable><br>
+       <select id="assembly constituency" name="assembly constituency">
+    <option value=""></option>
+      <option value="yes">yes</option>
+        <option value="no">no</option>
+  </select>
+    </div>
+    <div>
+      <lable for="ho">house number</lable><br>
+      <input type="house number" placeholder="7-37">
+    </div>
+  </div>
+  <div style="display: flex; justify-content: space-evenly;">
+    <div>
+      <lable for="nu">ward no</lable><br>
+      <input for="ward no" placeholder="5">
+    </div>
+    <div>
+      <lable for="sr">street</lable><br>
+      <input for="street" placeholder="madanapalle">
+    </div>
+    <div>
+      <lable for="gama">city</lable><br>
+      <input type="city" placeholder="vijayawada">
+    </div>
+  </div>
+  <div >
+  <div>
+     <lable for="pin">pin code</lable><br>
+     <input type="pin code" placeholder="52141">
+  </div>
+  </div>
+  <button class="kk"> next</button>
+  </div>
+</form>
+</body>
+</html>
